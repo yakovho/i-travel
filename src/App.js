@@ -4,17 +4,17 @@ import { Navbar, Container, Nav, NavDropdownm} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { render } from "react-dom";
 import { Routes, Route, Outlet, Link} from "react-router-dom";
-import Information from './information';
-import Matah_calculator from './matah_calculator';
-import Shop from './shop';
-import Item from './item';
-import Home from './home';
-import Passport from './passport';
-import Flight from './flight';
-import Hotel from './hotel';
-import Car_rental from './car_rental';
-import Matah from './matah';
-import Cart from './cart';
+import Information from './components/information';
+import Matah_calculator from './components/matah_calculator';
+import Shop from './components/shop';
+import Item from './components/item';
+import Home from './components/home';
+import Passport from './components/passport';
+import Flight from './components/flight';
+import Hotel from './components/hotel';
+import Car_rental from './components/car_rental';
+import Matah from './components/matah';
+import Cart from './components/cart';
 
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
         <div>
         <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
   <Container>
-  <Navbar.Brand><Link to="/"><img src='../logo.png' width="170" height="55"></img></Link></Navbar.Brand>
+  <Navbar.Brand><Link to="/"><img src="../logo.png" width="170" height="55"></img></Link></Navbar.Brand>
   
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
