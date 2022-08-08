@@ -19,7 +19,7 @@ function Hotel() {
         <h2 className='head_text_information'>הזמנת מלון</h2>
         <div className='text_information'>
         <p>הזמנת מלון מומלצת דרך האתרים שיפורטו להלן, שימו לב שלאתר booking לדוגמא יש הסכם עם המלונות שדרכם יקבלו את המחיר הטוב ביותר כך שבוודאות תקבלו מחיר יותר טוב מלהזמין דרך המלון או דרך סוכן נסיעות</p>   
-        <div className='d-grid img_information_bottom'><img src='../hotel.jpg' className='img_information'></img></div>
+        <div className='d-grid img_information_bottom'><img src='../hotel1.webp' className='img_information'></img></div>
         <p>שימו לב לבדוק מספר נקודות בכל דיל המוצע לכם</p>
         <p> <span className='span'>חשוב מאוד!</span> לבדוק דירוגים וביקורות של כל מלון זה משמעותי מאוד </p>  
         <ul>

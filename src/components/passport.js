@@ -19,7 +19,7 @@ function Passport() {
         <h2 className='head_text_information'>חידוש דרכון</h2>
         <div className='text_information'>
         <p>הדבר הראשון שצריך לעשות כשמתכננים טיול לחו"ל זה לוודא את תוקף הדרכון אם אתם צריכים להנפיק או לחדש דרכון הזמינו תור בהקדם האפשרי ללשכת האוכלוסין וההגירה</p>
-        <div className='d-grid img_information_bottom'><img src='../passport.jpg' className='img_information'></img></div>
+        <div className='d-grid img_information_bottom'><img src='../passport1.webp' className='img_information'></img></div>
        <p>במידה והטיסה קרובה ואין לכם דרכון בתוקף:</p>
            <ul>
             <li> אם אתם מעל 48 שעות מהטיסה ניתן לגשת לאחת מלשכות הרשות המנפיקות דרכונים זמניים את הרשימה תוכלו למצוא <a href="https://www.gov.il/BlobFolder/generalpage/services_forms/he/DR61.pdf">כאן</a> העלות היא 420 למבוגר ו 215 לקטין מתחת לגיל 18</li>

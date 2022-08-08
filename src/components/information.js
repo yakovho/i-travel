@@ -10,12 +10,12 @@ import { Routes, Route, Outlet, Link, useNavigate} from "react-router-dom";
 
 function Information() {
     const items = [
-        { id: 1, item: "הזמנת טיסות" ,img: "../airplane.png" ,link: "/flight"},
-        { id: 2, item: "הזמנת מלונות" ,img: "../hotel.png" ,link: "/hotel"},
-        { id: 3, item: "השכרת רכב" ,img: "../car.png" ,link: "/car_rental"},
-        { id: 4, item: "חידוש דרכון" ,img: "../passport.png" ,link: "/passport"},
-        { id: 5, item: "קניית מט''ח בזול" ,img: "../money.png" ,link: "/matah"},
-        { id: 6, item: "מחשבון המרת מט''ח" ,img: "../calculator.png" ,link: "/matah_calculator"},
+        { id: 1, item: "הזמנת טיסות" ,img: "../airplane.webp" ,link: "/flight"},
+        { id: 2, item: "הזמנת מלונות" ,img: "../hotel.webp" ,link: "/hotel"},
+        { id: 3, item: "השכרת רכב" ,img: "../car.webp" ,link: "/car_rental"},
+        { id: 4, item: "חידוש דרכון" ,img: "../passport.webp" ,link: "/passport"},
+        { id: 5, item: "קניית מט''ח בזול" ,img: "../money.webp" ,link: "/matah"},
+        { id: 6, item: "מחשבון המרת מט''ח" ,img: "../calculator.webp" ,link: "/matah_calculator"},
       ];
   
     const card1 = items.map(item => (
